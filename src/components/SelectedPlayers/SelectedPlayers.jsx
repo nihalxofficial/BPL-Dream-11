@@ -1,9 +1,11 @@
 import React from 'react';
 
-const SelectedPlayers = () => {
+const SelectedPlayers = ({selectedPlayers}) => {
     return (
         <div>
-            <h2>Selected Players</h2>
+            {selectedPlayers.map(player=> {
+                return <h2>{player.playerName}</h2>
+            })}
         </div>
     );
 };
