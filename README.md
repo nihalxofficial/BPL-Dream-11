@@ -3,6 +3,7 @@
 - Tailwindcss
 - Daisyui
 - React Icons
+- React Toastify
 
 
 # React + Vite

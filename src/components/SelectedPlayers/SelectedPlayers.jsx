@@ -1,11 +1,19 @@
 import React from 'react';
 import { MdDelete } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
-import { MdOutlineSportsCricket } from "react-icons/md";
+import { MdSportsCricket } from "react-icons/md";
+import { toast } from 'react-toastify';
 
 
 
-const SelectedPlayers = ({selectedPlayers}) => {
+const SelectedPlayers = ({selectedPlayers,setSelectedPlayers, coin, setCoin}) => {
+    const deleteSelectedPlayer = (player) => {
+        const deletedArray = selectedPlayers.filter(p=> p.playerName !== player.playerName);
+        setSelectedPlayers(deletedArray);
+        setCoin(coin + player.price)
+        toast.warning(`Deleted ${player.playerName} from the list.`)
+        
+    }
     return (
         <div className='space-y-5'>
             {selectedPlayers.map((player, index)=> {
@@ -14,11 +22,11 @@ const SelectedPlayers = ({selectedPlayers}) => {
                         <img className='w-20 h-20 ' src={player.playerImg} alt="" />
                         <div>
                             <h2 className='font-bold text-xl flex justify-between items-center gap-2'><FaUser /> {player.playerName}</h2>
-                            <p className=' text-gray-600 flex items-center gap-2' ><MdOutlineSportsCricket /> {player.playerType}</p>
+                            <p className=' text-gray-600 flex items-center gap-2' ><MdSportsCricket /> {player.playerType}</p>
                         </div>
 
                     </div>
-                    <button>< MdDelete className='cursor-pointer text-2xl text-red-600' /></button>
+                    <button onClick={()=>deleteSelectedPlayer(player)}>< MdDelete className='cursor-pointer text-2xl text-red-600' /></button>
                 </div>
             })}
         </div>
