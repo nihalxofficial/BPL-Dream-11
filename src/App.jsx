@@ -12,7 +12,7 @@ function App() {
   const playerPromise = fetchPlayer();
 
   return (
-    <div>
+    <div className='space-y-8'>
       <Navbar></Navbar>
       <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
 

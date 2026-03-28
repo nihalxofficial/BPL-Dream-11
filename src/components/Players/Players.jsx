@@ -5,7 +5,7 @@ const Players = ({playerPromise}) => {
     const players = use(playerPromise)    
     
     return (
-        <div className='container mx-auto'>
+        <div className='w-11/12 mx-auto'>
             <AvailablePlayers players={players}></AvailablePlayers>
             
         </div>
