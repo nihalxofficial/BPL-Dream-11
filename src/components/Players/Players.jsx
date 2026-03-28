@@ -1,5 +1,6 @@
 import React, { use, useState } from 'react';
 import AvailablePlayers from '../AvailablePlayers/AvailablePlayers';
+import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 
 const Players = ({playerPromise}) => {
     const players = use(playerPromise)  
@@ -17,7 +18,8 @@ const Players = ({playerPromise}) => {
                     <button onClick={()=> setSelectedType("selected")} className={`btn ${selectedType ==="selected"? "btn-primary" : ""} rounded-l-none rounded-r-xl`}>Selected (0)</button>
                 </div>
             </div>
-            <AvailablePlayers players={players}></AvailablePlayers>
+           {selectedType === "available" ?  <AvailablePlayers players={players}></AvailablePlayers>
+           : <SelectedPlayers></SelectedPlayers>}
         </div>
 
     );
