@@ -9,7 +9,7 @@ const Navbar = () => {
                 <img src={logo} alt="" />
             </div>
             <div className="mr-10 flex justify-between gap-6 items-center">
-                <ul className='flex justify-between gap-6'>
+                <ul className='flex justify-between font-semibold gap-6'>
                     <li>Home</li>
                     <li>Fixtures</li>
                     <li>Teams</li>
