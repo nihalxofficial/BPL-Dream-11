@@ -1,0 +1,62 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "country": "India",
+    "playerStyle": "Top Order Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "rating": 95,
+    "price": 1500000,
+    "playerImg": "https://img.freepik.com/premium-vector/dynamic-vector-illustration-cricket-batsman-action-portrayed-with-fluidity-vibrancy_1235303-2181.jpg"
+  },
+  {
+    "playerName": "Babar Azam",
+    "country": "Pakistan",
+    "playerStyle": "Top Order Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 92,
+    "price": 1400000,
+    "playerImg": "https://img.freepik.com/premium-vector/dynamic-vector-illustration-cricket-batsman-action-portrayed-with-fluidity-vibrancy_1235303-2181.jpg"
+  },
+  {
+    "playerName": "Joe Root",
+    "country": "England",
+    "playerStyle": "Middle Order Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 90,
+    "price": 1300000,
+    "playerImg": "https://img.freepik.com/premium-vector/dynamic-vector-illustration-cricket-batsman-action-portrayed-with-fluidity-vibrancy_1235303-2181.jpg"
+  },
+  {
+    "playerName": "Kane Williamson",
+    "country": "New Zealand",
+    "playerStyle": "Top Order Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 91,
+    "price": 1350000,
+    "playerImg": "https://img.freepik.com/premium-vector/dynamic-vector-illustration-cricket-batsman-action-portrayed-with-fluidity-vibrancy_1235303-2181.jpg"
+  },
+  {
+    "playerName": "Ben Stokes",
+    "country": "England",
+    "playerStyle": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "rating": 93,
+    "price": 1450000,
+    "playerImg": "https://img.freepik.com/premium-vector/dynamic-vector-illustration-cricket-batsman-action-portrayed-with-fluidity-vibrancy_1235303-2181.jpg"
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "playerStyle": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "rating": 94,
+    "price": 1200000,
+    "playerImg": "https://img.freepik.com/premium-vector/dynamic-vector-illustration-cricket-batsman-action-portrayed-with-fluidity-vibrancy_1235303-2181.jpg"
+  }
+]
